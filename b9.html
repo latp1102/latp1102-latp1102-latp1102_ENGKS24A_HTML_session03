@@ -6,96 +6,126 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <div>
-            <label for="username">Họ và tên:</label>
-            <input id="username" type="username" name="username">
-        </div>
-        <br/>
-        <div>
-            <label for="dateOfBirth">Ngày sinh:</label>
-            <input id="dateOfBirth" type="date" name="dateOfBirth">
-        </div>
-        <br/>
-        <div>
-            <label for="gender">Giới tính:</label>
-            <input id="gender" type="radio" name="gender">
-            <label for="male">Nam</label>
-            <input id="male" type="radio" name="male">
-            <label for="female">Nữ</label>
-        </div>
-        <br/>
-        <div>
-            <label for="tel">Số điện thoại:</label>
-            <input id="tel" type="tel" name="tel">
-        </div>
-        <br/>
-        <div>
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email">
-        </div>
-        <br/>
-        <div>
-            <label for="địa chỉ">Địa chỉ:</label>
-            <textarea name="" id=""></textarea>
-        </div>
-        <br/>
-        <div>
-            <label for="vai trò trong nhóm">Vai trò trong nhóm:</label>
-            <select name="" id="">
-                <option value="thành viên">Thành viên</option>
-            </select>
-        </div>
-        <br/>
-        <div>
-            <label for="sở thích">Sở thích:</label>
-            <input id="sở thích" type="sở thích" name="sở thích">
-        </div>
-        <br/>
-        <div>
-            <label for="kỹ năng">Kỹ năng:</label>
-            <textarea name="" id=""></textarea>
-        </div>
-        <br/>
-        <div>
-            <label for="thời gian rảnh">Thời gian rảnh:</label>
-            <input type="checkbox" name="thời gian rảnh" value="sáng"/>
-            <lable>Sáng</lable>
-
-            <input type="checkbox" name="thời gian rảnh" value="chiều"/>
-            <lable>Chiều</lable>
-
-            <input type="checkbox" name="thời gian rảnh" value="tối"/>
-            <lable>Tối</lable>
-        </div>
-        <br/>
-        <div>
-            <label for="lý do tham gia nhóm">Lý do tham gia nhóm:</label>
-            <textarea name="" id=""></textarea>
-        </div>
-        <br/>
-        <div>
-            <label for="đăng ký nhận bản tin">Đăng ký nhận bản tin:</label>
-            <input type="checkbox" name="đăng ký nhận bản tin">
-            <label>Có</label>
-        </div>
-        <br/>
-        <div>
-            <label for="màu yêu thích">Màu yêu thích:</label>
-            <input type="color" name="màu yêu thích" style="width: 40px; height: 30px;">
-        </div>
-        <br/>
-        <div>
-            <label for="nhận thông báo qua email">Nhận thông báo qua eamil:</label>
-            <input  type="radio" name="nhận thông báo qua email">
-            <label>Email</label>
-            <input  type="radio" name="nhận thông báo qua email">
-            <label>SMS</label>
-        </div>
-        <br/>
-        <div>
-            <input type="button" value="Đăng ký thành viên">
-        </div>
-    </form>
+    <table>
+        <form action="">
+            <div>
+                <tr>
+                    <td>Họ và tên:</td>
+                    <td><input type="họ và tên" name="họ và tên"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Ngày sinh:</td>
+                    <td><input id="dateOfBirth" type="date" name="dateOfBirth"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        <input id="male" type="radio" name="gender" value="male">Nam
+                        <input id="female" type="radio" name="gender" value="female">Nữ
+                    </td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Số điện thoại:</td>
+                    <td><input id="tel" type="tel" name="tel"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="họ và tên" name="email"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Đại chỉ:</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Vai trò trong nhóm:</td>
+                    <td><select name="" >
+                        <option value="">Thành viên</option> 
+                    </select></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Sở thích:</td>
+                    <td><input id="sở thích" type="ở thích" name="ở thích"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Kỹ năng:</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Thời gian rảnh:</td>
+                    <td>
+                        <input type="checkbox" name="thời gian rảnh" value="sáng"/>Sáng
+                        <input type="checkbox" name="thời gian rảnh" value="chiều"/>Chiều
+                        <input type="checkbox" name="thời gian rảnh" value="tối"/>Tối
+                    </td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Lý do tham gia nhóm:</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Đăng ký nhận bản tin:</td>
+                    <td><input type="checkbox" name="đăng ký nhận bản tin">Có</td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Màu yêu thích:</td>
+                    <td><input type="color" name="màu yêu thích" style="width: 40px; height: 30px;"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Nhận thông báo qua eamil:</td>
+                    <td>
+                        <input  type="radio" name="nhận thông báo qua email">Email
+                        <input  type="radio" name="nhận thông báo qua email">SMS
+                    </td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>
+                        <button type="submit">Đăng ký thành viên</button>
+                    </td>
+                </tr>
+            </div>
+        </form>
+    </table>
 </body>
 </html>
