@@ -6,86 +6,119 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <div>
-            <label for="username">Họ và tên:</label>
-            <input id="username" type="username" name="username">
-        </div>
-        <br/>
-        <div>
-            <label for="dateOfBirth">Ngày sinh:</label>
-            <input id="dateOfBirth" type="date" name="dateOfBirth">
-        </div>
-        <br/>
-        <div>
-            <label for="gender">Giới tính:</label>
-            <input id="gender" type="radio" name="gender">
-            <label for="male">Nam</label>
-            <input id="male" type="radio" name="male">
-            <label for="female">Nữ</label>
-        </div>
-        <br/>
-        <div>
-            <label for="tel">Số điện thoại:</label>
-            <input id="tel" type="tel" name="tel">
-        </div>
-        <br/>
-        <div>
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email">
-        </div>
-        <br/>
-        <div>
-            <label for="name">Tên công ty:</label>
-            <input id="name" type="name" name="name">
-        </div>
-        <br/>
-        <div>
-            <label for="vai trò công ty">Vai trò công ty</label>
-            <select name="" id="">
-                <option value="giám đốc điều hành">Giám đốc điều hành</option>
-            </select>
-        </div>
-        <br/>
-        <div>
-            <label for="ngành nghề công ty">Ngành nghề công ty:</label>
-            <input id="ngành nghề công ty" type="ngành nghề công ty" name="ngành nghề công ty">
-        </div>
-        <br/>
-        <div>
-            <label for="lý do tham gia câu lạc bộ">Lý do tham gia câu lạc bộ:</label>
-            <textarea name="" id=""></textarea>
-        </div>
-        <br/>
-        <div>
-            <label for="kinh nghiệm lãnh đạo">Kinh nghiệm lãnh đạo:<Klabel>
-            <textarea name="" id=""></textarea>
-        </div>
-        <br/>
-        <div>
-            <label for="mục tiêu tham gia câu lạc bộ">Mục tiêu tham gia câu lạc bộ:</label>
-            <textarea name="" id=""></textarea>
-        </div>
-        <br/>
-        <div>
-            <label for="chương trình sụ kiện mong muốn tham gia">Chương trình sụ kiện mong muốn tham gia:</label>
-            <input type="checkbox">
-            <label>Networking</label>
-            <input type="checkbox">
-            <label>Workshop</label>
-            <input type="checkbox">
-            <label>Hội thảo</label>
-        </div>
-        <br/>
-        <div>
-            <label for="đăng ký nhận bản tin">Đăng ký nhận bản tin:</label>
-            <input type="checkbox">
-            <label>Có</label>
-        </div>
-        <br/>
-        <div>
-            <input type="button" value="Đăng ký hội viên">
-        </div>
-    </form>
+    <table>
+        <form action="">
+            <div>
+                <tr>
+                    <td>Họ và tên:</td>
+                    <td><input type="họ và tên" name="họ và tên"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Ngày sinh:</td>
+                    <td><input id="dateOfBirth" type="date" name="dateOfBirth"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        <input id="male" type="radio" name="gender" value="male">Nam
+                        <input id="female" type="radio" name="gender" value="female">Nữ
+                    </td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Số điện thoại:</td>
+                    <td><input id="tel" type="tel" name="tel"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="họ và tên" name="email"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Tên công ty:</td>
+                    <td><input type="tên công ty" name="tên công ty"></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Vai trò trong công ty:</td>
+                    <td><select name="" id="">
+                        <option value="giám đốc điều hành">Giám đốc điều hành (CEO)</option>
+                    </select></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Ngành nghề kinh doanh:</td>
+                    <td><select name="" id="">
+                        <option value="ngành nghề kinh doanh">Doanh nghiệp nhỏ</option>
+                    </select></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Lý do tham gia câu lạc bộ:</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Kinh nghiệm lãnh đạo:</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Mục tiêu tham gia câu lạc bộ:</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Chương trình sự kiện mong muốn tham gia:</td>
+                    <td>
+                        <input type="checkbox">Networking
+                        <input type="checkbox">Workshop
+                        <input type="checkbox">Hội thảo
+                    </td>
+                </tr>
+            </div>
+            <br/>
+            <div>
+                <tr>
+                    <td>Đăng ký nhận bản tin:</td>
+                    <td>
+                        <input type="checkbox">Có
+                    </td>
+                </tr>
+            <br/>
+            <div>
+                <tr>
+                    <td>
+                        <button type="submit">Đăng ký hội viên</button>
+                    </td>
+                </tr>
+            </div>
+        </form>
+    </table>
 </body>
 </html>
